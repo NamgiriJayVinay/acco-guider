@@ -9,6 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
     <link rel="stylesheet" href="static/styles/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,800' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
@@ -17,7 +18,19 @@
   <section class="msger">
     <header class="msger-header">
       <div class="msger-header-title">
-          <img style="width: 3rem;height: 3rem" src="../static/styles/icon.png"> <div style="font-family: sans-serif;font-weight: bold;font-size: 3rem"></div>Acco-Guide
+           <div class="element1">
+              <img style="width: 5rem;height: 5rem" src="../static/styles/icon.png"><h3>Acco-Guide</h3>
+          </div>
+          <div class="element2">
+              <nav class="menu">
+              <ul>
+                <li><a href="#services">Kannada</a></li>
+                <li><a href="#careers">Telugu</a></li>
+                <li><a href="#about">Hindi</a></li>
+                <li><a href="#contact">Tamil</a></li>
+              </ul>
+            </nav>
+          </div>
       </div>
     </header>
 
@@ -54,7 +67,7 @@
 
 
     // Icons made by Freepik from www.flaticon.com
-    const BOT_IMG = "static/styles/bot.png";
+    const BOT_IMG = "static/styles/boticon.png";
     const PERSON_IMG = "static/styles/person.png";
     const BOT_NAME = "    Acco-Guide";
     const PERSON_NAME = "You";
